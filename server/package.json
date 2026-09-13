@@ -1,0 +1,26 @@
+{
+  "name": "ai-student-workspace-server",
+  "version": "1.0.0",
+  "description": "Backend API for AI-Powered Student Workspace",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "debug": "node --inspect index.js",
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mammoth": "^1.8.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^7.15.0",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^6.3.289"
+  },
+  "devDependencies": {
+    "pdfkit": "^0.20.2"
+  }
+}
