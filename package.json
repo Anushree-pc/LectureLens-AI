@@ -1,0 +1,10 @@
+{
+  "name": "ai-powered-student-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-Powered Student Workspace: Lecture Material to Revision Notes + Practice Quiz",
+  "scripts": {
+    "dev": "node start-dev.js",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  }
+}
